@@ -50,13 +50,13 @@ model.add(MaxPooling2D(2)) # 4x3x3x128 RF:26
 model.add(Convolution2D(32, 1, use_bias=False))  # 4x3x3x32 RF:34
 
 model.add(DepthwiseConv2D(3, use_bias=False)) # 2x3x3x3 RF: 42  
-model.add(Convolution2D(32, 1, use_bias=False)) # 2x3x3x32 RF:50
+model.add(Convolution2D(32, 1, use_bias=False)) # 2x3x3x32 RF:42
 model.add(Activation('relu'))
 model.add(BatchNormalization())
 model.add(Dropout(0.25))
 
-model.add(Convolution2D(10, 1, use_bias=False)) # 2x3x3x10 RF: 58
-model.add(GlobalAveragePooling2D()) # 1X10
+model.add(Convolution2D(10, 1, use_bias=False)) # 2x3x3x10 RF: 50
+model.add(GlobalAveragePooling2D()) # 1X10 RF:54
 model.add(Activation('softmax'))
 
 model.summary()
@@ -371,7 +371,7 @@ Observations:
   Observations:
   - Model can be improved very much. Based on the constraints and the no. of paramters this model seems to be doing good
 
-  - **After writing receptive field - it is observed that the output layer is looking at a field of 58 which might be hindering the model(?)**
+  - **After writing receptive field - it is observed that the output layer is looking at a field of 54 which might be hindering the model(?)**
 
 
 
