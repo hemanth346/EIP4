@@ -24,5 +24,3 @@ Training is failing with runtime timeout in colab
 #### Model 4 : Resnet V(1/2) , experimenting with image augmentations
 
 #### Model 4 : Resnet V(1/2) , implementing cutouts
-
-#### Model 5 : Resnet V(1/2), changing lr, lr scheduler based on no. of epochs
