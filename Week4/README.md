@@ -84,6 +84,7 @@ Model can be improved with other regularization techniques like dropout and imag
 
 ## Model 6_Final Submission
 
+> Epoch **00034**: val_acc did not improve from 0.88600
 
 ##### Observations
 
