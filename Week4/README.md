@@ -86,9 +86,17 @@ Model can be improved with other regularization techniques like dropout and imag
 
 > Epoch **00034**: val_acc did not improve from 0.88600
 
-##### Observations
+**Final :**
+- *Epoch 00050: val_acc improved from 0.89520 to 0.89680, saving model to /content/saved_models/cifar10_ResNet20v2_model.050.h5*
 
+##### Observations
+Initially there are fluctuations but as we approach last epochs the fluctuations died off. We can reduce lr even before waiting till current epoch number i.e lr scheduler can be fine tuned
+
+There is still scope for model improvement using other regularization techniques.
 
 ##### Steps for next Network
+- Try with cutout/image augmentations
+- try adding dropouts
+- try with SGD
 
-> Not used SGD as it was discussed in today's class and I wouldn't have used it otherwise. I'm also focusing only on LR and not on image augmentation and cutoff.
+> Not used SGD as it was discussed in today's class and I wouldn't have used it otherwise. I'm also focusing only on LR and not on image augmentation/cut outs
