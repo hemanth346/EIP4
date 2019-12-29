@@ -1,4 +1,5 @@
-## Accuracies (Training in progress)
+## Accuracies 
+
 ```
 gender_output_acc: 0.6927
 image_quality_output_acc: 0.5765
@@ -18,7 +19,6 @@ val_footwear_output_acc: 0.5497
 val_pose_output_acc: 0.6398
 val_emotion_output_acc: 0.6939
 
-Epoch No. 7
 ```
 
 Objective and Dataset details at the end of the file [Click here](#Objective)
