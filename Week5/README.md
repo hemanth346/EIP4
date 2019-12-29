@@ -1,30 +1,27 @@
-## Final Accuracies (WIP)
+## Accuracies (Training in progress)
 ```
-gender_output_acc: 0.6153
-image_quality_output_acc: 0.5580
-age_output_acc: 0.3975
-weight_output_acc: 0.6367
-bag_output_acc: 0.5629
-footwear_output_acc: 0.5437
-pose_output_acc: 0.6166
+gender_output_acc: 0.6927
+image_quality_output_acc: 0.5765
+age_output_acc: 0.3999
+weight_output_acc: 0.6362
+bag_output_acc: 0.5860
+footwear_output_acc: 0.5799
+pose_output_acc: 0.6403
 emotion_output_acc: 0.7140
 
-val_gender_output_acc: 0.5787
-val_image_quality_output_acc: 0.3656
-val_age_output_acc: 0.4001
-val_weight_output_acc: 0.6280
-val_bag_output_acc: 0.5600
-val_footwear_output_acc: 0.4621
-val_pose_output_acc: 0.6225
-val_emotion_output_acc: 0.6978
+val_gender_output_acc: 0.6683
+val_image_quality_output_acc: 0.5728
+val_age_output_acc: 0.4011
+val_weight_output_acc: 0.6309
+val_bag_output_acc: 0.5896
+val_footwear_output_acc: 0.5497
+val_pose_output_acc: 0.6398
+val_emotion_output_acc: 0.6939
+
+Epoch No. 7
 ```
 
-### Objective
-Given an image of a person, predict eight different attributes from the image.
-
-##### This is a Multi-class Multi-Label problem
-
-Dataset details at the end of the file [here](#Dataset)
+Objective and Dataset details at the end of the file [Click here](#Objective)
 
 ### Approach
 
@@ -87,23 +84,8 @@ Training is breaking very frequently and was very hard to do with colab. Trained
 Accuracies are as below
 
 ```
-gender_output_acc: 0.6153
-image_quality_output_acc: 0.5580
-age_output_acc: 0.3975
-weight_output_acc: 0.6367
-bag_output_acc: 0.5629
-footwear_output_acc: 0.5437
-pose_output_acc: 0.6166
-emotion_output_acc: 0.7140
-
-val_gender_output_acc: 0.5787
-val_image_quality_output_acc: 0.3656
-val_age_output_acc: 0.4001
-val_weight_output_acc: 0.6280
-val_bag_output_acc: 0.5600
-val_footwear_output_acc: 0.4621
-val_pose_output_acc: 0.6225
-val_emotion_output_acc: 0.6978
+.
+.
 ```
 
 #### Visualizations
@@ -111,6 +93,13 @@ val_emotion_output_acc: 0.6978
 Todo
 - Gradcam Visualizations
 - Layer Visualizations
+
+
+### Objective
+Given an image of a person, predict eight different attributes from the image.
+
+##### This is a Multi-class Multi-Label problem
+
 
 #### Dataset
 Images have been annotated and labelled by our group who have been working on the problem individually.
@@ -133,4 +122,4 @@ bodypose   	 :  ['Front-Frontish' 'Side' 'Back']
 ##### Data exploration and analysis
 First the dataset has been explored to find that there are no null values for any attributes.
 
-There are imbalance in class distribution - specifically emotion and weight have huge imbalance. 
+There are imbalance in class distribution - specifically emotion and weight have huge imbalance.
