@@ -1,24 +1,14 @@
 ## Accuracies 
 
 ```
-gender_output_acc: 0.6927
-image_quality_output_acc: 0.5765
-age_output_acc: 0.3999
-weight_output_acc: 0.6362
-bag_output_acc: 0.5860
-footwear_output_acc: 0.5799
-pose_output_acc: 0.6403
-emotion_output_acc: 0.7140
-
-val_gender_output_acc: 0.6683
-val_image_quality_output_acc: 0.5728
-val_age_output_acc: 0.4011
-val_weight_output_acc: 0.6309
-val_bag_output_acc: 0.5896
-val_footwear_output_acc: 0.5497
-val_pose_output_acc: 0.6398
-val_emotion_output_acc: 0.6939
-
+gender_output_acc: 0.8171
+image_quality_output_acc: 0.5955
+age_output_acc: 0.4130
+weight_output_acc: 0.6359
+bag_output_acc: 0.6286
+footwear_output_acc: 0.6712
+pose_output_acc: 0.7713
+emotion_output_acc: 0.7143
 ```
 
 Objective and Dataset details at the end of the file [Click here](#Objective)
