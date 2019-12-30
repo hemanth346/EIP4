@@ -1,14 +1,14 @@
-## Accuracies 
+## Accuracies
 
 ```
-gender_output_acc: 0.8171
-image_quality_output_acc: 0.5955
-age_output_acc: 0.4130
-weight_output_acc: 0.6359
-bag_output_acc: 0.6286
-footwear_output_acc: 0.6712
-pose_output_acc: 0.7713
-emotion_output_acc: 0.7143
+gender_output_acc: 0.8723
+image_quality_output_acc: 0.6051
+age_output_acc: 0.4336
+weight_output_acc: 0.6372
+bag_output_acc: 0.6595
+footwear_output_acc: 0.6960
+pose_output_acc: 0.8193
+emotion_output_acc: 0.7137
 ```
 
 Objective and Dataset details at the end of the file [Click here](#Objective)
